@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7044E8EE255079FF00DC0810 /* WNoterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706499F3251E1E7900F3A1BA /* WNoterApp.swift */; };
+		7044E8F525507A7A00DC0810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706499F4251E1E7900F3A1BA /* ContentView.swift */; };
+		7044E8FD25507B4200DC0810 /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044E8FC25507B4200DC0810 /* MeasureView.swift */; };
+		7044E90A25507BA900DC0810 /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044E8FC25507B4200DC0810 /* MeasureView.swift */; };
+		7044E91125507BAA00DC0810 /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044E8FC25507B4200DC0810 /* MeasureView.swift */; };
+		70649A0F251E1E7900F3A1BA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A0E251E1E7900F3A1BA /* Tests_iOS.swift */; };
+		70649A1A251E1E7900F3A1BA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A19251E1E7900F3A1BA /* Tests_macOS.swift */; };
+		70649A1C251E1E7900F3A1BA /* WNoterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706499F3251E1E7900F3A1BA /* WNoterApp.swift */; };
+		70649A1D251E1E7900F3A1BA /* WNoterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706499F3251E1E7900F3A1BA /* WNoterApp.swift */; };
+		70649A1E251E1E7900F3A1BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706499F4251E1E7900F3A1BA /* ContentView.swift */; };
+		70649A1F251E1E7900F3A1BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706499F4251E1E7900F3A1BA /* ContentView.swift */; };
+		70649A20251E1E7900F3A1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706499F5251E1E7900F3A1BA /* Assets.xcassets */; };
+		70649A21251E1E7900F3A1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706499F5251E1E7900F3A1BA /* Assets.xcassets */; };
+		70649A35251E1ECF00F3A1BA /* MMWeightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A34251E1ECF00F3A1BA /* MMWeightData.swift */; };
+		70649A36251E1ECF00F3A1BA /* MMWeightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A34251E1ECF00F3A1BA /* MMWeightData.swift */; };
+		70649A60251E367C00F3A1BA /* MMBluetoothReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A5F251E367C00F3A1BA /* MMBluetoothReader.swift */; };
+		70649A61251E367C00F3A1BA /* MMBluetoothReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A5F251E367C00F3A1BA /* MMBluetoothReader.swift */; };
+		70649A77251E511C00F3A1BA /* MMDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A76251E511C00F3A1BA /* MMDataParser.swift */; };
+		70649A78251E511C00F3A1BA /* MMDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A76251E511C00F3A1BA /* MMDataParser.swift */; };
+		70829DD52566AD35003E5A15 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70829DD42566AD35003E5A15 /* HealthKit.framework */; };
+		70C018E72520048F005818BB /* WNoter Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70C018E62520048F005818BB /* WNoter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70C018F02520048F005818BB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C018EF2520048F005818BB /* ComplicationController.swift */; };
+		70C018F22520048F005818BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C018F12520048F005818BB /* Assets.xcassets */; };
+		70C018F52520048F005818BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C018F42520048F005818BB /* Preview Assets.xcassets */; };
+		70C018F92520048F005818BB /* WNoter.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 70C018DD2520048E005818BB /* WNoter.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70C01916252004C5005818BB /* MMDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A76251E511C00F3A1BA /* MMDataParser.swift */; };
+		70C01918252004C5005818BB /* MMWeightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A34251E1ECF00F3A1BA /* MMWeightData.swift */; };
+		70C01919252004C5005818BB /* MMBluetoothReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70649A5F251E367C00F3A1BA /* MMBluetoothReader.swift */; };
+		70C0192C2520BD7B005818BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706499F5251E1E7900F3A1BA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70649A0B251E1E7900F3A1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706499EE251E1E7900F3A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706499F9251E1E7900F3A1BA;
+			remoteInfo = "WNoter (iOS)";
+		};
+		70649A16251E1E7900F3A1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706499EE251E1E7900F3A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70649A01251E1E7900F3A1BA;
+			remoteInfo = "WNoter (macOS)";
+		};
+		70C018E82520048F005818BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706499EE251E1E7900F3A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70C018E52520048F005818BB;
+			remoteInfo = "WNoter Extension";
+		};
+		70C018F72520048F005818BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706499EE251E1E7900F3A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70C018DC2520048E005818BB;
+			remoteInfo = WNoter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70C018FD2520048F005818BB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70C018E72520048F005818BB /* WNoter Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C019012520048F005818BB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				70C018F92520048F005818BB /* WNoter.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7044E8FC25507B4200DC0810 /* MeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureView.swift; sourceTree = "<group>"; };
+		706499F3251E1E7900F3A1BA /* WNoterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WNoterApp.swift; sourceTree = "<group>"; };
+		706499F4251E1E7900F3A1BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		706499F5251E1E7900F3A1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706499FA251E1E7900F3A1BA /* WNoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706499FD251E1E7900F3A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70649A02251E1E7900F3A1BA /* WNoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70649A04251E1E7900F3A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70649A05251E1E7900F3A1BA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		70649A0A251E1E7900F3A1BA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70649A0E251E1E7900F3A1BA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		70649A10251E1E7900F3A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70649A15251E1E7900F3A1BA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70649A19251E1E7900F3A1BA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		70649A1B251E1E7900F3A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70649A34251E1ECF00F3A1BA /* MMWeightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMWeightData.swift; sourceTree = "<group>"; };
+		70649A5F251E367C00F3A1BA /* MMBluetoothReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMBluetoothReader.swift; sourceTree = "<group>"; };
+		70649A76251E511C00F3A1BA /* MMDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMDataParser.swift; sourceTree = "<group>"; };
+		70829DD22566AD35003E5A15 /* WNoter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WNoter.entitlements; sourceTree = "<group>"; };
+		70829DD42566AD35003E5A15 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		70C018DD2520048E005818BB /* WNoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C018E12520048F005818BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C018E62520048F005818BB /* WNoter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WNoter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C018EF2520048F005818BB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		70C018F12520048F005818BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70C018F42520048F005818BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70C018F62520048F005818BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706499F7251E1E7900F3A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70829DD52566AD35003E5A15 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706499FF251E1E7900F3A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70649A07251E1E7900F3A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70649A12251E1E7900F3A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C018E32520048F005818BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706499ED251E1E7900F3A1BA = {
+			isa = PBXGroup;
+			children = (
+				70829DD22566AD35003E5A15 /* WNoter.entitlements */,
+				706499F2251E1E7900F3A1BA /* Shared */,
+				706499FC251E1E7900F3A1BA /* iOS */,
+				70649A03251E1E7900F3A1BA /* macOS */,
+				70C018DE2520048E005818BB /* watchOS */,
+				70C018EA2520048F005818BB /* watchOS Extension */,
+				70649A0D251E1E7900F3A1BA /* Tests iOS */,
+				70649A18251E1E7900F3A1BA /* Tests macOS */,
+				706499FB251E1E7900F3A1BA /* Products */,
+				70829DD32566AD35003E5A15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		706499F2251E1E7900F3A1BA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				706499F3251E1E7900F3A1BA /* WNoterApp.swift */,
+				706499F4251E1E7900F3A1BA /* ContentView.swift */,
+				7044E8FC25507B4200DC0810 /* MeasureView.swift */,
+				70649A5F251E367C00F3A1BA /* MMBluetoothReader.swift */,
+				70649A76251E511C00F3A1BA /* MMDataParser.swift */,
+				70649A34251E1ECF00F3A1BA /* MMWeightData.swift */,
+				706499F5251E1E7900F3A1BA /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		706499FB251E1E7900F3A1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706499FA251E1E7900F3A1BA /* WNoter.app */,
+				70649A02251E1E7900F3A1BA /* WNoter.app */,
+				70649A0A251E1E7900F3A1BA /* Tests iOS.xctest */,
+				70649A15251E1E7900F3A1BA /* Tests macOS.xctest */,
+				70C018DD2520048E005818BB /* WNoter.app */,
+				70C018E62520048F005818BB /* WNoter Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706499FC251E1E7900F3A1BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				706499FD251E1E7900F3A1BA /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		70649A03251E1E7900F3A1BA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				70649A04251E1E7900F3A1BA /* Info.plist */,
+				70649A05251E1E7900F3A1BA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		70649A0D251E1E7900F3A1BA /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				70649A0E251E1E7900F3A1BA /* Tests_iOS.swift */,
+				70649A10251E1E7900F3A1BA /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		70649A18251E1E7900F3A1BA /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				70649A19251E1E7900F3A1BA /* Tests_macOS.swift */,
+				70649A1B251E1E7900F3A1BA /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		70829DD32566AD35003E5A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70829DD42566AD35003E5A15 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C018DE2520048E005818BB /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				70C018E12520048F005818BB /* Info.plist */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		70C018EA2520048F005818BB /* watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70C018EF2520048F005818BB /* ComplicationController.swift */,
+				70C018F12520048F005818BB /* Assets.xcassets */,
+				70C018F62520048F005818BB /* Info.plist */,
+				70C018F32520048F005818BB /* Preview Content */,
+			);
+			path = "watchOS Extension";
+			sourceTree = "<group>";
+		};
+		70C018F32520048F005818BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70C018F42520048F005818BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706499F9251E1E7900F3A1BA /* WNoter (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70649A24251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "WNoter (iOS)" */;
+			buildPhases = (
+				706499F6251E1E7900F3A1BA /* Sources */,
+				706499F7251E1E7900F3A1BA /* Frameworks */,
+				706499F8251E1E7900F3A1BA /* Resources */,
+				70C019012520048F005818BB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70C018F82520048F005818BB /* PBXTargetDependency */,
+			);
+			name = "WNoter (iOS)";
+			productName = "WNoter (iOS)";
+			productReference = 706499FA251E1E7900F3A1BA /* WNoter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70649A01251E1E7900F3A1BA /* WNoter (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70649A27251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "WNoter (macOS)" */;
+			buildPhases = (
+				706499FE251E1E7900F3A1BA /* Sources */,
+				706499FF251E1E7900F3A1BA /* Frameworks */,
+				70649A00251E1E7900F3A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WNoter (macOS)";
+			productName = "WNoter (macOS)";
+			productReference = 70649A02251E1E7900F3A1BA /* WNoter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70649A09251E1E7900F3A1BA /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70649A2A251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				70649A06251E1E7900F3A1BA /* Sources */,
+				70649A07251E1E7900F3A1BA /* Frameworks */,
+				70649A08251E1E7900F3A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70649A0C251E1E7900F3A1BA /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 70649A0A251E1E7900F3A1BA /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		70649A14251E1E7900F3A1BA /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70649A2D251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				70649A11251E1E7900F3A1BA /* Sources */,
+				70649A12251E1E7900F3A1BA /* Frameworks */,
+				70649A13251E1E7900F3A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70649A17251E1E7900F3A1BA /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 70649A15251E1E7900F3A1BA /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		70C018DC2520048E005818BB /* WNoter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C018FE2520048F005818BB /* Build configuration list for PBXNativeTarget "WNoter" */;
+			buildPhases = (
+				70C018DB2520048E005818BB /* Resources */,
+				70C018FD2520048F005818BB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70C018E92520048F005818BB /* PBXTargetDependency */,
+			);
+			name = WNoter;
+			productName = WNoter;
+			productReference = 70C018DD2520048E005818BB /* WNoter.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		70C018E52520048F005818BB /* WNoter Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C018FA2520048F005818BB /* Build configuration list for PBXNativeTarget "WNoter Extension" */;
+			buildPhases = (
+				70C018E22520048F005818BB /* Sources */,
+				70C018E32520048F005818BB /* Frameworks */,
+				70C018E42520048F005818BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WNoter Extension";
+			productName = "WNoter Extension";
+			productReference = 70C018E62520048F005818BB /* WNoter Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706499EE251E1E7900F3A1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					706499F9251E1E7900F3A1BA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					70649A01251E1E7900F3A1BA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					70649A09251E1E7900F3A1BA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 706499F9251E1E7900F3A1BA;
+					};
+					70649A14251E1E7900F3A1BA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 70649A01251E1E7900F3A1BA;
+					};
+					70C018DC2520048E005818BB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					70C018E52520048F005818BB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 706499F1251E1E7900F3A1BA /* Build configuration list for PBXProject "WNoter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706499ED251E1E7900F3A1BA;
+			productRefGroup = 706499FB251E1E7900F3A1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706499F9251E1E7900F3A1BA /* WNoter (iOS) */,
+				70649A01251E1E7900F3A1BA /* WNoter (macOS) */,
+				70649A09251E1E7900F3A1BA /* Tests iOS */,
+				70649A14251E1E7900F3A1BA /* Tests macOS */,
+				70C018DC2520048E005818BB /* WNoter */,
+				70C018E52520048F005818BB /* WNoter Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706499F8251E1E7900F3A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70649A20251E1E7900F3A1BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70649A00251E1E7900F3A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70649A21251E1E7900F3A1BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70649A08251E1E7900F3A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70649A13251E1E7900F3A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C018DB2520048E005818BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C0192C2520BD7B005818BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C018E42520048F005818BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C018F52520048F005818BB /* Preview Assets.xcassets in Resources */,
+				70C018F22520048F005818BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706499F6251E1E7900F3A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70649A60251E367C00F3A1BA /* MMBluetoothReader.swift in Sources */,
+				7044E8FD25507B4200DC0810 /* MeasureView.swift in Sources */,
+				70649A1E251E1E7900F3A1BA /* ContentView.swift in Sources */,
+				70649A1C251E1E7900F3A1BA /* WNoterApp.swift in Sources */,
+				70649A77251E511C00F3A1BA /* MMDataParser.swift in Sources */,
+				70649A35251E1ECF00F3A1BA /* MMWeightData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706499FE251E1E7900F3A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70649A61251E367C00F3A1BA /* MMBluetoothReader.swift in Sources */,
+				7044E90A25507BA900DC0810 /* MeasureView.swift in Sources */,
+				70649A1F251E1E7900F3A1BA /* ContentView.swift in Sources */,
+				70649A1D251E1E7900F3A1BA /* WNoterApp.swift in Sources */,
+				70649A78251E511C00F3A1BA /* MMDataParser.swift in Sources */,
+				70649A36251E1ECF00F3A1BA /* MMWeightData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70649A06251E1E7900F3A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70649A0F251E1E7900F3A1BA /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70649A11251E1E7900F3A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70649A1A251E1E7900F3A1BA /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C018E22520048F005818BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C018F02520048F005818BB /* ComplicationController.swift in Sources */,
+				7044E91125507BAA00DC0810 /* MeasureView.swift in Sources */,
+				70C01916252004C5005818BB /* MMDataParser.swift in Sources */,
+				7044E8F525507A7A00DC0810 /* ContentView.swift in Sources */,
+				70C01919252004C5005818BB /* MMBluetoothReader.swift in Sources */,
+				70C01918252004C5005818BB /* MMWeightData.swift in Sources */,
+				7044E8EE255079FF00DC0810 /* WNoterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70649A0C251E1E7900F3A1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706499F9251E1E7900F3A1BA /* WNoter (iOS) */;
+			targetProxy = 70649A0B251E1E7900F3A1BA /* PBXContainerItemProxy */;
+		};
+		70649A17251E1E7900F3A1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70649A01251E1E7900F3A1BA /* WNoter (macOS) */;
+			targetProxy = 70649A16251E1E7900F3A1BA /* PBXContainerItemProxy */;
+		};
+		70C018E92520048F005818BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70C018E52520048F005818BB /* WNoter Extension */;
+			targetProxy = 70C018E82520048F005818BB /* PBXContainerItemProxy */;
+		};
+		70C018F82520048F005818BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70C018DC2520048E005818BB /* WNoter */;
+			targetProxy = 70C018F72520048F005818BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70649A22251E1E7900F3A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70649A23251E1E7900F3A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		70649A25251E1E7900F3A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WNoter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter;
+				PRODUCT_NAME = WNoter;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70649A26251E1E7900F3A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WNoter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter;
+				PRODUCT_NAME = WNoter;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70649A28251E1E7900F3A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter;
+				PRODUCT_NAME = WNoter;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		70649A29251E1E7900F3A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter;
+				PRODUCT_NAME = WNoter;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		70649A2B251E1E7900F3A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.minimind.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WNoter (iOS)";
+			};
+			name = Debug;
+		};
+		70649A2C251E1E7900F3A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.minimind.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WNoter (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70649A2E251E1E7900F3A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.minimind.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WNoter (macOS)";
+			};
+			name = Debug;
+		};
+		70649A2F251E1E7900F3A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.minimind.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WNoter (macOS)";
+			};
+			name = Release;
+		};
+		70C018FB2520048F005818BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		70C018FC2520048F005818BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		70C018FF2520048F005818BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				IBSC_MODULE = WNoter_Extension;
+				INFOPLIST_FILE = watchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		70C019002520048F005818BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7H53JJUKJ;
+				IBSC_MODULE = WNoter_Extension;
+				INFOPLIST_FILE = watchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.minimind.WNoter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706499F1251E1E7900F3A1BA /* Build configuration list for PBXProject "WNoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70649A22251E1E7900F3A1BA /* Debug */,
+				70649A23251E1E7900F3A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70649A24251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "WNoter (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70649A25251E1E7900F3A1BA /* Debug */,
+				70649A26251E1E7900F3A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70649A27251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "WNoter (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70649A28251E1E7900F3A1BA /* Debug */,
+				70649A29251E1E7900F3A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70649A2A251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70649A2B251E1E7900F3A1BA /* Debug */,
+				70649A2C251E1E7900F3A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70649A2D251E1E7900F3A1BA /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70649A2E251E1E7900F3A1BA /* Debug */,
+				70649A2F251E1E7900F3A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C018FA2520048F005818BB /* Build configuration list for PBXNativeTarget "WNoter Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C018FB2520048F005818BB /* Debug */,
+				70C018FC2520048F005818BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C018FE2520048F005818BB /* Build configuration list for PBXNativeTarget "WNoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C018FF2520048F005818BB /* Debug */,
+				70C019002520048F005818BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706499EE251E1E7900F3A1BA /* Project object */;
+}
